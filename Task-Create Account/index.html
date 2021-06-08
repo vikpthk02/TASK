@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>CREATE NEW ACCOUNT</h3>
+
+    <div class="container">
+        <form id="Form1">
+            <h4>Your Profile</h4>
+            <div class="input-box">
+                <span class="details">First Name</span>
+            <input type="text" placeholder="Input Your First Name" required></div>
+            <div class="input-box">
+                <span class="details">Last Name</span>
+            <input type="text" placeholder="Input Your Last Name" required></div>
+            <div class="input-box">
+                <span class="details">Email</span>
+            <input type="text" placeholder="Input Your Email" required></div>
+            <div class="input-box">
+                <span class="details">Phone Number</span>
+            <input type="text" placeholder="Input Your Phone Number" required></div>
+            <div class="input-box">
+                <span class="details">Password</span>
+            <input type="text" placeholder="Create Password" required></div>
+            <div class="input-box">
+                <span class="details">Confirm Password</span>
+            <input type="text" placeholder="Confirm Your Password" required></div>
+               <div class="btn-box">
+              <button type="button" id="Next1">Next</button>
+           </div>
+        </form>
+
+
+        <form id="Form2">
+            <h3>Business Information</h3>
+            <div class="input-box">
+                <span class="details">Brand Name</span>
+            <input type="text" placeholder="Input Your Brand Name" required></div>
+            <div class="input-box">
+                <span class="details">Brand Type</span>
+            <input type="text" placeholder="Select Type" required></div>
+            <div class="input-box">
+                <span class="details">Street Address</span>
+            <input type="text" placeholder="Input Your Street Address" required></div>
+            <div class="input-box">
+                <span class="details">City</span>
+            <input type="text" placeholder="Input City" required></div>
+            <div class="input-box">
+                <span class="details">First Name</span>
+            <input type="text" placeholder="Iput Zip Code" required></div>
+            <div class="input-box">
+                <span class="details">Text ID Number</span>
+            <input type="text" placeholder="Input Text ID Number" required></div>
+            <div class="input-box">
+                <span class="details">DOCUMENTATION</span>
+            <input type="text" placeholder="Electronically sign the agreement(s)"></div>
+            <div class="input-box">
+                <span class="details"></span>
+            <input type="text" placeholder="Non adult beverage kroger market supplier waiver and release"></div>
+            <div class="input-box">
+                <span class="details"></span>
+            <input type="text" placeholder="Electronically sign the agreement(s)"></div>
+            <div class="btn-box">
+                <button type="button" id="Back1">Back</button>
+                <button type="button" id="Next2">Next</button>
+            </div>
+           </form> 
+
+            <form id="Form3">
+                <h3>Additional User</h3>
+                <input type="text" placeholder="Empty" required>
+                <input type="text" placeholder="Empty" required>
+                <input type="text" placeholder="Empty" required>
+                <input type="text" placeholder="Empty" required>
+                <input type="text" placeholder="Empty" required>
+                <input type="text" placeholder="Empty" required>
+
+
+                <div class="btn-box">
+                    <button type="button" id="Back2">Back</button>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+
+
+        <div class="step-row">
+            <div id="progress"></div>
+            <div class="step-col"><small>Your Profile</small></div>
+            <div class="step-col"><small>Business Information</small></div>
+            <div class="step-col"><small>Additional User</small>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
